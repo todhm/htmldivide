@@ -1,0 +1,263 @@
+body {
+  background: #200002;
+}
+
+.sec1Wrap {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.mainimg {
+  width: 100%;
+  /* max-width: 1920px; */
+}
+
+.containerWrap {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.faqContainer {
+  width: 95% !important;
+}
+
+.textWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 11%;
+  margin-top: 3%;
+}
+h1 {
+  color: white;
+  font-size: 26px;
+  margin-top: -40px;
+}
+.mainWordsText {
+  color: white;
+  font-size: 17px;
+  text-align: center;
+}
+
+.logWrap {
+  margin-bottom: 9%;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.loginBtnMain {
+  cursor: pointer;
+  max-width: 47%;
+}
+.signBtn {
+  cursor: pointer;
+  max-width: 47%;
+}
+
+.dataSix {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+}
+.sixFour {
+  display: flex;
+  justify-content: space-around;
+}
+.Fir {
+  position: relative;
+  margin-left: -5%;
+  margin-top: -5%;
+}
+.Sec {
+  position: relative;
+  margin-left: -5%;
+  margin-top: -1%;
+}
+.Thi {
+  position: relative;
+  margin-left: -5%;
+  margin-top: -5%;
+}
+.For {
+  position: relative;
+  margin-left: -5%;
+  margin-top: -1%;
+}
+.datato {
+  font-family: "orbitron";
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.datanameto1 {
+  position: absolute;
+  top: 72%;
+  left: 47%;
+  font-size: 12px;
+  transform: rotate(-31deg);
+}
+.datanameto3 {
+  position: absolute;
+  top: 73%;
+  left: 47%;
+  font-size: 12px;
+  transform: rotate(-31deg);
+}
+.datanamebo2 {
+  position: absolute;
+  top: 78%;
+  left: 48%;
+  font-size: 12px;
+  transform: rotate(-31deg);
+}
+.datanamebo4 {
+  position: absolute;
+  top: 76%;
+  left: 46%;
+  font-size: 12px;
+  transform: rotate(-31deg);
+}
+
+.dataTabs {
+  width: 620px;
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 0;
+}
+.tab {
+  position: relative;
+  height: 100%;
+}
+.tabname {
+  position: absolute;
+  top: 50%;
+  /*셀렉되면 40%*/
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.tabnamepress {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.contractExplanation {
+  color: grey;
+  font-size: 17px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.contractWrapper {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.contractText {
+  color: white;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.contractAddress {
+  color: #02e5da;
+  font-size: 20px;
+  font-weight: 600;
+}
+.sixBoxImage {
+  width: 90%;
+}
+.dummydata10 {
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 50px;
+}
+.chartmini {
+  display: none;
+}
+.biglogo {
+  max-width: 100%;
+}
+/* mobile */
+
+@media (max-width: 600px) {
+  .datato {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .datanameto1 {
+    position: absolute;
+    top: 75%;
+    left: 49%;
+    font-size: 12px;
+    transform: rotate(-31deg);
+  }
+  .datanameto3 {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    font-size: 12px;
+    transform: rotate(-31deg);
+  }
+  .datanamebo2 {
+    position: absolute;
+    top: 78%;
+    left: 49%;
+    font-size: 12px;
+    transform: rotate(-31deg);
+  }
+  .datanamebo4 {
+    position: absolute;
+    top: 74%;
+    left: 49%;
+    font-size: 12px;
+    transform: rotate(-31deg);
+  }
+  .mainWordsText {
+    font-size: 14px;
+    height: 80px;
+  }
+  .logWrap {
+    max-width: 90%;
+  }
+  .dataSix {
+    margin: 50px 0;
+  }
+  .mainImageData {
+    max-width: 100px;
+  }
+  .dataTabs {
+    max-width: 80% !important;
+  }
+  .contractExplanation {
+    width: 80% !important;
+    flex-direction: column;
+  }
+  .contractWrapper {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .contractAddress {
+    font-size: 14px;
+  }
+  .contractText {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .dummydata10 {
+    display: none;
+  }
+  .chartmini {
+    display: block;
+    border: 1px solid #ff9b9b;
+    width: 100%;
+    max-width: 400;
+    margin-top: 50px;
+  }
+}

@@ -1,0 +1,22 @@
+.faqBox {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #ffbcbc;
+  box-sizing: border-box;
+  height: 84.65px;
+}
+.faqBoxAnswer {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #ffbcbc;
+  border-top: none;
+  box-sizing: border-box;
+  height: 130.1px;
+}
+.faqBoxInner {
+  width: 95% !important;
+}
+.faqQuestions {
+  font-family: notosans;
+  font-style: normal;
+  font-weight: normal;
+  color: #ffffff;
+}

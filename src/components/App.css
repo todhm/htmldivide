@@ -1,0 +1,32 @@
+.mainGridWidth {
+  /* width: 80% !important; */
+}
+/* mobile */
+@media (max-width: 767px) {
+  .mainGridWidth {
+    width: 95% !important;
+  }
+}
+@font-face {
+  font-family: "roboto";
+  src: url("fonts/Roboto_Bold.ttf") format(truetype);
+  src: url("fonts/Roboto_Medium.ttf") format(truetype);
+}
+
+@font-face {
+  font-family: "orbitron";
+  src: url("fonts/Orbitron-Bold.ttf") format(truetype);
+  src: url("fonts/Orbitron-Medium.ttf") format(truetype);
+}
+
+@font-face {
+  font-family: "optima";
+  src: url("fonts/OPTIMA.ttf") format(truetype);
+  src: url("fonts/OPTIMA_B.ttf") format(truetype);
+}
+
+@font-face {
+  font-family: "notosans";
+  src: url("fonts/NotoSans-Bold.ttf") format(truetype);
+  src: url("fonts/NotoSans-Regular.ttf") format(truetype);
+}

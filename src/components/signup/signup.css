@@ -1,0 +1,255 @@
+* {
+  box-sizing: border-box;
+}
+input:focus {
+  outline: none;
+}
+button:focus {
+  outline: 0;
+}
+
+body {
+  background: -webkit-linear-gradient(to left, #0a0001, #030015) !important;
+  background: -moz-linear-gradient(to left, #0a0001, #030015) !important;
+  background: -o-linear-gradient(to left, #0a0001, #030015) !important;
+  background: linear-gradient(to right, #0a0001, #030015) !important;
+}
+
+.signupWrapper {
+  font-family: "notosans";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 15px;
+  /* background: url("../login/mainbackimg.png") no-repeat center center; */
+  /* background-size: cover; */
+}
+.mainlogo {
+  margin: 70px 0 -20px 0;
+}
+.bigtext {
+  color: white;
+  font-size: 50px;
+  font-family: "optima";
+  font-weight: bold;
+}
+
+.signupWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 40px 0px;
+  width: 100%;
+}
+.walletInput {
+  width: 460px;
+  height: 48px;
+  border-radius: 50px;
+  border: 0px;
+  background: rgba(152, 152, 152, 0.5);
+  padding: 0 30px;
+  color: white;
+  margin-bottom: 23px;
+}
+.walletBtn {
+  width: 460px;
+  height: 48px;
+  border-radius: 50px;
+  border: 3px solid #b385ff;
+  color: #b385ff;
+  background: rgba(0, 0, 0, 0);
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.referLoginWrap {
+  margin: 40px 0px;
+}
+.referBtn {
+  width: 460px;
+  height: 48px;
+  border-radius: 50px;
+  border: 3px solid #b385ff;
+  color: #b385ff;
+  background: rgba(0, 0, 0, 0);
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.signloginWrap {
+  margin: 40px 0;
+}
+.signloginBtn {
+  width: 233px;
+  height: 48px;
+  border: 3px solid white;
+  box-sizing: border-box;
+  border-radius: 50px;
+  font-size: 1.125rem;
+  color: white;
+  background: rgba(0, 0, 0, 0);
+  font-weight: bold;
+}
+
+.orWrap {
+  width: 460px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+}
+.line {
+  height: 1px;
+  width: 100%;
+}
+.orText {
+  font-size: 15px;
+  color: white;
+  margin: 0px 15px;
+}
+
+.hideModal {
+  display: none;
+}
+.showModal {
+  backdrop-filter: blur(5px);
+  border: 1px solid #b385ff;
+  background: #181126dd;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 93%;
+  max-width: 880px;
+  height: 90vh;
+  max-height: 680px;
+  text-align: center;
+  position: absolute;
+  top: 90px;
+  padding: 50px;
+}
+.modallogo {
+}
+.modalHeader {
+  font-size: 28px;
+  font-weight: bold;
+  max-width: 700px;
+}
+.modalDesWrap {
+  margin: 70px 0;
+}
+.modalAutoWrap {
+  color: #b385ff;
+  font-size: 20px;
+  margin-top: 50px;
+}
+.modalAuto {
+}
+.closeBtn {
+  width: 100px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0);
+  font-size: 1.125rem;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .signupWrap {
+    width: 90%;
+  }
+  .mainlogo {
+    margin: 0;
+    width: 35vw;
+  }
+  .bigtext {
+    font-size: 16vw;
+  }
+
+  .walletInput {
+    width: 100%;
+  }
+  .walletBtn {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .referLoginWrap {
+    width: 90%;
+  }
+  .referBtn {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .signloginWrap {
+    width: 50%;
+  }
+  .signloginBtn {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .orWrap {
+    width: 100%;
+  }
+
+  .showModal {
+    padding: 20px;
+    top: 30px;
+  }
+  .modallogo {
+    width: 30vw;
+  }
+  .modalHeader {
+    font-size: 7vw;
+  }
+  .modalDesWrap {
+    margin: 40px 0;
+  }
+  .modalAutoWrap {
+    font-size: 16px;
+  }
+  .closeBtn {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
+
+.loader {
+  display: block;
+  position: absolute;
+  left: 50%;
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+  margin: 15px 0 0 -25px;
+  border: 5px solid #f3f3f3;
+  border-radius: 75%;
+  border-top: 5px solid #3498db;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 5s linear infinite;
+  animation: spin 5s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

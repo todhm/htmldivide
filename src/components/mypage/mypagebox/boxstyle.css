@@ -1,0 +1,365 @@
+/* .boxWrapper {
+  background: -webkit-linear-gradient(to left, #200002, #030015);
+  background: -moz-linear-gradient(to left, #200002, #030015);
+  background: -o-linear-gradient(to left, #200002, #030015);
+  background: linear-gradient(to right, #200002, #030015);
+} */
+/* .boxRowHeight {
+  height: 211.89px;
+  background: -webkit-linear-gradient(to left, #200002, #030015);
+  background: -moz-linear-gradient(to left, #200002, #030015);
+  background: -o-linear-gradient(to left, #200002, #030015);
+  background: linear-gradient(to right, #200002, #030015);
+} */
+* {
+  box-sizing: border-box;
+}
+.innerBoxStyle {
+  background: #271d37;
+  height: 96px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.innerBoxStyleFull {
+  height: 96px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  margin-bottom: 15px;
+  cursor: pointer;
+  background: #603c9a;
+  box-shadow: inset -3px -2px 6px 1px #201c35, inset 5px 5px 4px #815bbf;
+}
+
+.innerWidth {
+  width: 70% !important;
+}
+.bar {
+  width: 172px;
+  height: 32px;
+  border: 2.5px solid #7f66c9;
+  border-radius: 3px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 2px;
+  position: relative;
+}
+.datialBar {
+  width: 100%;
+  height: 32px;
+  border: 2.5px solid #7f66c9;
+  border-radius: 3px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 2px;
+  position: relative;
+}
+.barOn {
+  background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.4) 4.29%,
+      rgba(255, 255, 255, 0) 181.9%
+    ),
+    rgba(51, 0, 223, 0.7);
+  border-radius: 3px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.barFull {
+  background: linear-gradient(
+    270deg,
+    rgba(255, 27, 27, 0.7) 0%,
+    rgba(255, 157, 157, 0.7) 103.92%
+  );
+  border-radius: 3px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.barOff {
+  background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.4) 4.29%,
+      rgba(255, 255, 255, 0) 181.9%
+    ),
+    rgba(51, 0, 223, 0.7);
+  border-radius: 3px;
+  width: 0%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+}
+.barpercent {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+.orangeDollar {
+  font-family: orbitron;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: #ffbd59;
+  margin-right: 10px;
+}
+.followNumber {
+  font-size: 30px;
+  color: #ffffff;
+  font-family: orbitron;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 0.5;
+}
+.whiteIdTextBox {
+  font-family: Orbitron;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  color: #ffffff;
+  height: 35px;
+}
+.boxBorderGreenText {
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  height: 82.14px;
+
+  font-family: Orbitron;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  /* identical to box height */
+  color: #02e5da;
+}
+
+.boxnum {
+  position: absolute;
+  top: 6%;
+  left: 6%;
+}
+.cart {
+  position: absolute;
+  background: #ffbd59;
+  border-radius: 50%;
+  right: 0;
+  top: 0;
+  transform: translate(40%, -50%);
+  padding: 7px;
+}
+.cartNone {
+  display: none;
+}
+.cartImg {
+  width: 25px;
+  height: 25px;
+}
+
+.hideModal {
+  display: none;
+}
+.cartModal {
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid #ffbd59;
+  color: #ffbd59;
+  padding: 5px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-17%, -50%);
+}
+.cartModalX {
+  text-align: right;
+}
+.boxmoney {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 auto;
+}
+
+.boxdetailWrapGrid {
+  justify-content: center;
+}
+.boxInfoWrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.invitersWrap {
+  display: -webkit-inline-box;
+  line-height: 1.5;
+}
+.invitersImg {
+  margin-right: 8px;
+}
+
+.detailBoxRightWrap {
+  margin-right: 20px;
+  text-align: right;
+}
+.detailboxflex {
+  justify-content: flex-end;
+}
+.detailId {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "notosans";
+}
+.detailmoney {
+  font-size: 14px;
+  font-family: "notosans";
+}
+.detailLvl {
+  font-size: 14px;
+  font-family: "notosans";
+}
+.invitermeIdWrap {
+  border: 1px solid #b59cfd;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.invitermeIdhead {
+  font-size: 20px;
+  font-weight: bold;
+  color: #b59cfd;
+}
+.invitermeIdWho {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
+  background: rgba(181, 156, 253, 0.4);
+  border-radius: 2px;
+  text-align: center;
+}
+.invitemeNumWrapper {
+  position: absolute;
+  right: 0;
+  transform: translate(100%);
+}
+.invitemeNumWrap {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+}
+.inviteLine {
+  border: 1px solid #c5b1ff;
+  width: 50px;
+  height: 0;
+}
+.inviteCir {
+  border: 1px solid #c5b1ff;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+.invitermeNum {
+  margin-left: 7px;
+}
+
+.buyDataWarpper {
+  display: flex;
+}
+.buydateWrap {
+  padding: 0 10px;
+}
+.dateHead {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.buyIdWrap {
+  padding: 0 10px;
+}
+.buyIdHead {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.buyWalletWrap {
+  padding: 0 10px;
+}
+.buyWalletHead {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.buyETHUSDwrap {
+  padding: 0 10px;
+}
+.buyETHUSDHead {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* boxDetail */
+
+/* mobile */
+@media (max-width: 390px) {
+  .innerBoxStyle {
+    /* height: 151.89px !important;
+    width: 151.89px !important;
+    margin-bottom: 20px; */
+  }
+}
+@media (max-width: 600px) {
+  .innerBoxStyle {
+    /* height: 171.89px;
+    width: 171.89px;
+    margin-bottom: 20px; */
+  }
+  .innerWidth {
+    /* width: 90% !important; */
+  }
+  .followNumber {
+    font-size: 20px;
+  }
+  .orangeDollar {
+  }
+  .whiteIdTextBox {
+    font-size: 14px;
+  }
+  .boxBorderGreenText {
+    font-size: 20px;
+    /* margin-bottom: 20px; */
+  }
+  .boxdetailWrapGrid {
+    justify-content: left;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1280px) {
+  .innerBoxStyle {
+    /* height: 171.89px;
+    width: 171.89px;
+    margin-bottom: 20px; */
+  }
+  .innerWidth {
+    /* width: 90% !important; */
+  }
+  .followNumber {
+    font-size: 20px;
+  }
+  .orangeDollar {
+  }
+  .whiteIdTextBox {
+    font-size: 14px;
+  }
+  .boxBorderGreenText {
+    font-size: 20px;
+  }
+}

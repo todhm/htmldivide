@@ -1,0 +1,280 @@
+* {
+  box-sizing: border-box;
+}
+input {
+  outline: none;
+}
+
+.MypageWrap {
+  background: url("./assets/mainimg.svg") no-repeat top center;
+}
+
+.Com1Wrap {
+  max-width: 1200px;
+  margin: 60px auto;
+  width: 90%;
+}
+.myPagecontainer {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.firData {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.whiteTT {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "roboto";
+  margin-bottom: 10px;
+  color: white;
+}
+.numData {
+  color: #02e5da;
+  font-size: 33px;
+  font-weight: bold;
+  font-family: "roboto";
+}
+
+.Com2Wrap {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  color: #fff;
+}
+.leftBoxWrap {
+  width: 26%;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  font-size: 25px;
+  font-weight: 700;
+}
+/* .human {
+  widdth
+} */
+.leftBtn {
+  color: #fff;
+  font-size: 24px;
+  background-color: #603c9a;
+  box-shadow: inset 0px -4px 8px #260063;
+  border-radius: 40px;
+  border: 0px;
+  padding: 10px 14px;
+  font-weight: bold;
+}
+
+.lottoBtnWrap {
+  margin-top: 40px;
+}
+.lottoGoBtn {
+  border: 1px solid #ffbd59;
+  color: #ffbd59;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: "orbitron";
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5% 0;
+  width: 100%;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.rightBoxWrap {
+  width: 72%;
+}
+.topWrap {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  margin-bottom: 40px;
+}
+.bottomWrap {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+}
+
+.Dada {
+  margin-bottom: 40px;
+}
+.idid {
+  margin-bottom: 10px;
+}
+.human {
+  margin-right: 10px;
+}
+.people {
+  display: flex;
+  margin-bottom: 15px;
+}
+.trx {
+  margin-bottom: 30px;
+  color: #ffbd59;
+}
+
+.datacardsWrapper {
+  margin-top: 40px;
+  font-size: 20px;
+}
+.x3dahongWrap {
+  border: 1px solid #02e5da;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+.head {
+  color: #02e5da;
+  font-family: "orbitron";
+  font-weight: bold;
+}
+.x3headLine {
+  border-color: #02e5da;
+}
+.leftbarPercent {
+  text-align: right;
+}
+.leftbarTrx {
+  text-align: right;
+  color: #b59cfd;
+}
+
+.leftBarlinkWrap {
+  border: 1px solid #b59cfd;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+.headpurple {
+  color: #b59cfd;
+}
+
+.linkcoptWrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 10px;
+}
+.linkinput {
+  border-radius: 2px;
+  color: white;
+  background: rgba(181, 156, 253, 0.4);
+  border: 0px;
+  padding: 5px;
+  width: 85%;
+  /* background-image: url("./assets/copyicon.svg");
+  background-position: top right;
+  background-repeat: no-repeat; */
+}
+.copyiconImg {
+  height: 100%;
+}
+.linkcopyBtn {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0);
+  border: 0;
+  padding: 0;
+  outline: 0;
+}
+
+.inviterinput {
+  width: 95%;
+  border-radius: 2px;
+  color: white;
+  background: rgba(181, 156, 253, 0.4);
+  border: 0px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  .whiteTT {
+    font-size: 12px;
+  }
+  .numData {
+    font-size: 14px;
+  }
+
+  .Com2Wrap {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 10px;
+  }
+  .leftBoxWrap {
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+  }
+  .leftbaruserinfo {
+  }
+
+  .datacardsWrapper {
+    margin-top: 0;
+    display: flex;
+    font-size: 16px;
+  }
+  .human {
+    width: 20px;
+  }
+  .trx {
+    margin-bottom: 5px;
+  }
+  .leftBtn {
+    font-size: 16px;
+  }
+  .x3dahongWrap {
+    margin: 20px;
+  }
+  .x6dahongWrap {
+    margin: 20px;
+  }
+  .leftBarlinkWrap {
+    margin: 20px;
+    padding: 7px;
+  }
+
+  .rightBoxWrap {
+    width: 100%;
+  }
+  .topWrap {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .Com1Wrap {
+    margin: 0 auto 10px;
+  }
+  .myPagecontainer {
+    flex-direction: column;
+  }
+  .firData {
+    margin: 5px 0;
+  }
+  .whiteTT {
+    margin-bottom: 0;
+  }
+  .datacardsWrapper {
+    font-size: 12px;
+    flex-direction: column;
+  }
+  .leftBoxWrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .x3dahongWrap {
+    margin: 20px 0;
+  }
+  .x6dahongWrap {
+    margin: 20px 0;
+  }
+  .leftBarlinkWrap {
+    margin: 20px 0;
+  }
+}

@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+input:focus {
+  outline: none;
+}
+button:focus {
+  outline: none;
+}
+
+.lottopageWrapper {
+  background: url("./assets/mainimg.svg") no-repeat top center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; 위아래 중간에 옴*/
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+.titleMessage {
+  color: #ffbd59;
+  font-size: 40px;
+  font-weight: 800;
+  font-family: "Optima";
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+.lottopageDes {
+  color: white;
+  font-size: 18px;
+  padding: 0 10px;
+}
+.chartWrap {
+  border: 5px solid #ffbd59;
+  width: 90%;
+  max-width: 580px;
+  padding: 50px;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 60px;
+}
+.expectedWrap {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+.poolSizeWrap {
+  display: flex;
+  justify-content: space-between;
+}
+.getTicketsWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.howmanytiWrap {
+  text-align: left;
+  position: relative;
+}
+.howmanytiLitt {
+  font-size: 16px;
+  font-weight: 300;
+  position: absolute;
+  left: 6px;
+}
+.howmanytiInput {
+  background: rgba(234, 163, 163, 0.25);
+  text-align: right;
+  width: 100px;
+  height: 30px;
+  margin-right: 10px;
+  color: #ffbd58;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.lottoLine {
+  width: 100%;
+  height: 1px;
+  margin: 25px 0;
+}
+.buyticketBtn {
+  color: black;
+  background: linear-gradient(180deg, #ffbd59 47.92%, #a35005 100%);
+  border-radius: 5px;
+  border: 0px;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 15px 35px;
+  cursor: pointer;
+}
+
+.lotterywinnersWrap {
+  margin: 100px 0;
+  width: 95%;
+  max-width: 1200px;
+}
+.lotterywinnersTitle {
+  font-weight: 800;
+  font-family: "Optima";
+  font-size: 40px;
+}
+.winnerChartWrap {
+  border: 2px solid #ffbd59;
+  padding: 30px 60px;
+}
+.winnerChartTitle {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}

@@ -1,0 +1,28 @@
+.headerWrapper {
+  background: rgba(0, 0, 0, 0.7);
+  height: 85px;
+  top: 0px;
+  z-index: 1;
+}
+.whiteText {
+  font-family: notosans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+  padding-left: 2px;
+}
+.selectStyle {
+  display: flex !important;
+}
+.menuSelected {
+  background: #000000 !important;
+}
+.menuListOuter {
+  padding: 0px !important;
+}
+
+.contry {
+  width: 30px;
+}
